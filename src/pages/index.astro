@@ -1,71 +1,69 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<div class="banner__cherry--funk" />
-		<main>
-			<h1>🎺 Cherry Funk Band!</h1>
-			<ul>
-				<li><strong>About Damn Time</strong> <span style="font-size: smaller;">(Lizzo)</span></li>
-				<li><strong>Ain't No Sunshine</strong> <span style="font-size: smaller;">(Bill Withers)</span></li>
-				<li><strong>Bésame Mucho</strong> <span style="font-size: smaller;">(Consuelo Velázquez)</span></li>
-				<li><strong>Blinding Lights</strong> <span style="font-size: smaller;">(The Weeknd)</span></li>
-				<li><strong>Breezin'</strong> <span style="font-size: smaller;">(George Benson)</span></li>
-				<li><strong>Calm Down</strong> <span style="font-size: smaller;">(Rema & Selena Gomez)</span></li>
-				<li><strong>Cantaloop</strong> <span style="font-size: smaller;">(Us3)</span></li>
-				<li><strong>Can't Stop the Feeling!</strong> <span style="font-size: smaller;">(Justin Timberlake)</span></li>
-				<li><strong>Celebration</strong> <span style="font-size: smaller;">(Kool & The Gang)</span></li>
-				<li><strong>Cold Hard</strong> <span style="font-size: smaller;">(Elton John & Dua Lipa)</span></li>
-				<li><strong>Crazy in Love</strong> <span style="font-size: smaller;">(Beyoncé feat. Jay-Z)</span></li>
-				<li><strong>Diggin' on DoIdo</strong> <span style="font-size: smaller;">(Tower of Power)</span></li>
-				<li><strong>Do I Do</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
-				<li><strong>Don't Start Now</strong> <span style="font-size: smaller;">(Dua Lipa)</span></li>
-				<li><strong>Feel So Good</strong> <span style="font-size: smaller;">(Chuck Mangione)</span></li>
-				<li><strong>Flowers</strong> <span style="font-size: smaller;">(Miley Cyrus)</span></li>
-				<li><strong>Funky Town</strong> <span style="font-size: smaller;">(Lipps Inc.)</span></li>
-				<li><strong>Get Lucky</strong> <span style="font-size: smaller;">(Daft Punk feat. Pharrell Williams)</span></li>
-				<li><strong>Give Me the Night</strong> <span style="font-size: smaller;">(George Benson)</span></li>
-				<li><strong>I Will Survive</strong> <span style="font-size: smaller;">(Gloria Gaynor)</span></li>
-				<li><strong>Isn't She Lovely</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
-				<li><strong>In da Club</strong> <span style="font-size: smaller;">(50 Cent)</span></li>
-				<li><strong>Jungle Boogie</strong> <span style="font-size: smaller;">(Kool & The Gang)</span></li>
-				<li><strong>Just the Way You Are</strong> <span style="font-size: smaller;">(Bruno Mars)</span></li>
-				<li><strong>Just the Two of Us</strong> <span style="font-size: smaller;">(Bill Withers)</span></li>
-				<li><strong>Le Freak</strong> <span style="font-size: smaller;">(Chic)</span></li>
-				<li><strong>Leave the Door Open</strong> <span style="font-size: smaller;">(Silk Sonic)</span></li>
-				<li><strong>Let's Groove</strong> <span style="font-size: smaller;">(Earth, Wind & Fire)</span></li>
-				<li><strong>Let the Music Play</strong> <span style="font-size: smaller;">(Shannon)</span></li>
-				<li><strong>Levitating</strong> <span style="font-size: smaller;">(Dua Lipa)</span></li>
-				<li><strong>Locked Out of Heaven</strong> <span style="font-size: smaller;">(Bruno Mars)</span></li>
-				<li><strong>Lose Yourself to Dance</strong> <span style="font-size: smaller;">(Daft Punk feat. Pharrell Williams)</span></li>
-				<li><strong>My Girl</strong> <span style="font-size: smaller;">(The Temptations)</span></li>
-				<li><strong>Route 66</strong> <span style="font-size: smaller;">(Nat King Cole)</span></li>
-				<li><strong>September</strong> <span style="font-size: smaller;">(Earth, Wind & Fire)</span></li>
-				<li><strong>Save Your Tears</strong> <span style="font-size: smaller;">(The Weeknd)</span></li>
-				<li><strong>Sir Duke</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
-				<li><strong>Staying Alive</strong> <span style="font-size: smaller;">(Bee Gees)</span></li>
-				<li><strong>Summertime</strong> <span style="font-size: smaller;">(George Gershwin)</span></li>
-				<li><strong>Sunny</strong> <span style="font-size: smaller;">(Bobby Hebb)</span></li>
-				<li><strong>Superstition</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
-				<li><strong>Treasure</strong> <span style="font-size: smaller;">(Bruno Mars)</span></li>
-				<li><strong>Uptown Funk</strong> <span style="font-size: smaller;">(Mark Ronson feat. Bruno Mars)</span></li>
-				<li><strong>Use Me</strong> <span style="font-size: smaller;">(Bill Withers)</span></li>
-				<li><strong>Use Somebody</strong> <span style="font-size: smaller;">(Kings of Leon)</span></li>
-				<li><strong>Voyager</strong> <span style="font-size: smaller;">(Daft Punk)</span></li>
-				<li><strong>You Sexy Thing</strong> <span style="font-size: smaller;">(Hot Chocolate)</span></li>
-				<li><strong>Watermelon Sugar</strong> <span style="font-size: smaller;">(Harry Styles)</span></li>
-			</ul>
-			
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <div class="banner__cherry--funk" />
+    <main>
+      <h1>🎺 Cherry Funk Band!</h1>
+      <ul>
+        <li><strong>About Damn Time</strong> <span style="font-size: smaller;">(Lizzo)</span></li>
+        <li><strong>Ain't No Sunshine</strong> <span style="font-size: smaller;">(Bill Withers)</span></li>
+        <li><strong>Bésame Mucho</strong> <span style="font-size: smaller;">(Consuelo Velázquez)</span></li>
+        <li><strong>Blinding Lights</strong> <span style="font-size: smaller;">(The Weeknd)</span></li>
+        <li><strong>Breezin'</strong> <span style="font-size: smaller;">(George Benson)</span></li>
+        <li><strong>Calm Down</strong> <span style="font-size: smaller;">(Rema & Selena Gomez)</span></li>
+        <li><strong>Cantaloop</strong> <span style="font-size: smaller;">(Us3)</span></li>
+        <li><strong>Can't Stop the Feeling!</strong> <span style="font-size: smaller;">(Justin Timberlake)</span></li>
+        <li><strong>Celebration</strong> <span style="font-size: smaller;">(Kool & The Gang)</span></li>
+        <li><strong>Cold Hard</strong> <span style="font-size: smaller;">(Elton John & Dua Lipa)</span></li>
+        <li><strong>Crazy in Love</strong> <span style="font-size: smaller;">(Beyoncé feat. Jay-Z)</span></li>
+        <li><strong>Diggin' on DoIdo</strong> <span style="font-size: smaller;">(Tower of Power)</span></li>
+        <li><strong>Do I Do</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
+        <li><strong>Don't Start Now</strong> <span style="font-size: smaller;">(Dua Lipa)</span></li>
+        <li><strong>Feel So Good</strong> <span style="font-size: smaller;">(Chuck Mangione)</span></li>
+        <li><strong>Flowers</strong> <span style="font-size: smaller;">(Miley Cyrus)</span></li>
+        <li><strong>Funky Town</strong> <span style="font-size: smaller;">(Lipps Inc.)</span></li>
+        <li><strong>Get Lucky</strong> <span style="font-size: smaller;">(Daft Punk feat. Pharrell Williams)</span></li>
+        <li><strong>Give Me the Night</strong> <span style="font-size: smaller;">(George Benson)</span></li>
+        <li><strong>I Will Survive</strong> <span style="font-size: smaller;">(Gloria Gaynor)</span></li>
+        <li><strong>Isn't She Lovely</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
+        <li><strong>In da Club</strong> <span style="font-size: smaller;">(50 Cent)</span></li>
+        <li><strong>Jungle Boogie</strong> <span style="font-size: smaller;">(Kool & The Gang)</span></li>
+        <li><strong>Just the Way You Are</strong> <span style="font-size: smaller;">(Bruno Mars)</span></li>
+        <li><strong>Just the Two of Us</strong> <span style="font-size: smaller;">(Bill Withers)</span></li>
+        <li><strong>Le Freak</strong> <span style="font-size: smaller;">(Chic)</span></li>
+        <li><strong>Leave the Door Open</strong> <span style="font-size: smaller;">(Silk Sonic)</span></li>
+        <li><strong>Let's Groove</strong> <span style="font-size: smaller;">(Earth, Wind & Fire)</span></li>
+        <li><strong>Let the Music Play</strong> <span style="font-size: smaller;">(Shannon)</span></li>
+        <li><strong>Levitating</strong> <span style="font-size: smaller;">(Dua Lipa)</span></li>
+        <li><strong>Locked Out of Heaven</strong> <span style="font-size: smaller;">(Bruno Mars)</span></li>
+        <li><strong>Lose Yourself to Dance</strong> <span style="font-size: smaller;">(Daft Punk feat. Pharrell Williams)</span></li>
+        <li><strong>My Girl</strong> <span style="font-size: smaller;">(The Temptations)</span></li>
+        <li><strong>Route 66</strong> <span style="font-size: smaller;">(Nat King Cole)</span></li>
+        <li><strong>September</strong> <span style="font-size: smaller;">(Earth, Wind & Fire)</span></li>
+        <li><strong>Save Your Tears</strong> <span style="font-size: smaller;">(The Weeknd)</span></li>
+        <li><strong>Sir Duke</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
+        <li><strong>Staying Alive</strong> <span style="font-size: smaller;">(Bee Gees)</span></li>
+        <li><strong>Summertime</strong> <span style="font-size: smaller;">(George Gershwin)</span></li>
+        <li><strong>Sunny</strong> <span style="font-size: smaller;">(Bobby Hebb)</span></li>
+        <li><strong>Superstition</strong> <span style="font-size: smaller;">(Stevie Wonder)</span></li>
+        <li><strong>Treasure</strong> <span style="font-size: smaller;">(Bruno Mars)</span></li>
+        <li><strong>Uptown Funk</strong> <span style="font-size: smaller;">(Mark Ronson feat. Bruno Mars)</span></li>
+        <li><strong>Use Me</strong> <span style="font-size: smaller;">(Bill Withers)</span></li>
+        <li><strong>Use Somebody</strong> <span style="font-size: smaller;">(Kings of Leon)</span></li>
+        <li><strong>Voyager</strong> <span style="font-size: smaller;">(Daft Punk)</span></li>
+        <li><strong>You Sexy Thing</strong> <span style="font-size: smaller;">(Hot Chocolate)</span></li>
+        <li><strong>Watermelon Sugar</strong> <span style="font-size: smaller;">(Harry Styles)</span></li>
+      </ul>
+    </main>
+    <Footer />
+  </body>
 </html>
