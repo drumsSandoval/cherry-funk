@@ -73,7 +73,8 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 2.052em;
+	font-size: 1.52em;
+	text-align: center;
 }
 h2 {
 	font-size: 2.441em;
@@ -169,7 +170,7 @@ hr {
 
 .banner__cherry--funk {
 	position: absolute;
-	background-image: url('/logo.png');
+	background-image: url('/public/logo.png');
 	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
 	background-position: center; /* Centra la imagen */
 	background-repeat: no-repeat; /* Evita que la imagen se repita */
